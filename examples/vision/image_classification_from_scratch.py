@@ -61,6 +61,9 @@ occurence. Let's filter out badly-encoded images that do not feature the string 
 
 import os
 
+# Clear GPU memory
+os.environ["TF_GPU_ALLOCATOR"]="cuda_malloc_async"
+
 num_skipped = 0
 for folder_name in ("Cat", "Dog"):
     folder_path = os.path.join("PetImages", folder_name)
