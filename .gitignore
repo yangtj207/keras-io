@@ -14,9 +14,9 @@ templates/examples/timeseries/*
 templates/examples/graph/*
 templates/guides/**/*.md
 templates/keras-tuner/getting_started.md
-examples/vision/PetImages/
+examples/vision/CatsDogs/PetImages/
 examples/vision/MSR-LA - 3467.docx
-examples/vision/*.h5
-examples/vision/kagglecatsanddogs_3367a.zip
-examples/vision/model.png
+examples/vision/CatsDogs/*.h5
+examples/vision/CatsDogs/kagglecatsanddogs_3367a.zip
+examples/vision/CatsDogs/model.png
 examples/vision/readme\[1\].txt
